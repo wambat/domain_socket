@@ -1,0 +1,56 @@
+bin/ipc_server.rb:9:in `start': uninitialized constant MyServer::StubServer (NameError)
+	from /usr/lib/ruby/gems/1.8/gems/daemon-spawn-0.4.2/lib/daemon_spawn.rb:51:in `start'
+	from /usr/lib/ruby/gems/1.8/gems/daemon-spawn-0.4.2/lib/daemon_spawn.rb:38:in `fork'
+	from /usr/lib/ruby/gems/1.8/gems/daemon-spawn-0.4.2/lib/daemon_spawn.rb:38:in `start'
+	from /usr/lib/ruby/gems/1.8/gems/daemon-spawn-0.4.2/lib/daemon_spawn.rb:181:in `start'
+	from /usr/lib/ruby/gems/1.8/gems/daemon-spawn-0.4.2/lib/daemon_spawn.rb:181:in `map'
+	from /usr/lib/ruby/gems/1.8/gems/daemon-spawn-0.4.2/lib/daemon_spawn.rb:181:in `start'
+	from /usr/lib/ruby/gems/1.8/gems/daemon-spawn-0.4.2/lib/daemon_spawn.rb:165:in `send'
+	from /usr/lib/ruby/gems/1.8/gems/daemon-spawn-0.4.2/lib/daemon_spawn.rb:165:in `spawn!'
+	from bin/ipc_server.rb:20
+bin/ipc_server.rb:9:in `start': uninitialized constant MyServer::StubServer (NameError)
+	from /usr/lib/ruby/gems/1.8/gems/daemon-spawn-0.4.2/lib/daemon_spawn.rb:51:in `start'
+	from /usr/lib/ruby/gems/1.8/gems/daemon-spawn-0.4.2/lib/daemon_spawn.rb:38:in `fork'
+	from /usr/lib/ruby/gems/1.8/gems/daemon-spawn-0.4.2/lib/daemon_spawn.rb:38:in `start'
+	from /usr/lib/ruby/gems/1.8/gems/daemon-spawn-0.4.2/lib/daemon_spawn.rb:181:in `start'
+	from /usr/lib/ruby/gems/1.8/gems/daemon-spawn-0.4.2/lib/daemon_spawn.rb:181:in `map'
+	from /usr/lib/ruby/gems/1.8/gems/daemon-spawn-0.4.2/lib/daemon_spawn.rb:181:in `start'
+	from /usr/lib/ruby/gems/1.8/gems/daemon-spawn-0.4.2/lib/daemon_spawn.rb:165:in `send'
+	from /usr/lib/ruby/gems/1.8/gems/daemon-spawn-0.4.2/lib/daemon_spawn.rb:165:in `spawn!'
+	from bin/ipc_server.rb:20
+bin/ipc_server.rb:9:in `start': uninitialized constant MyServer::StubServer (NameError)
+	from /usr/lib/ruby/gems/1.8/gems/daemon-spawn-0.4.2/lib/daemon_spawn.rb:51:in `start'
+	from /usr/lib/ruby/gems/1.8/gems/daemon-spawn-0.4.2/lib/daemon_spawn.rb:38:in `fork'
+	from /usr/lib/ruby/gems/1.8/gems/daemon-spawn-0.4.2/lib/daemon_spawn.rb:38:in `start'
+	from /usr/lib/ruby/gems/1.8/gems/daemon-spawn-0.4.2/lib/daemon_spawn.rb:181:in `start'
+	from /usr/lib/ruby/gems/1.8/gems/daemon-spawn-0.4.2/lib/daemon_spawn.rb:181:in `map'
+	from /usr/lib/ruby/gems/1.8/gems/daemon-spawn-0.4.2/lib/daemon_spawn.rb:181:in `start'
+	from /usr/lib/ruby/gems/1.8/gems/daemon-spawn-0.4.2/lib/daemon_spawn.rb:165:in `send'
+	from /usr/lib/ruby/gems/1.8/gems/daemon-spawn-0.4.2/lib/daemon_spawn.rb:165:in `spawn!'
+	from bin/ipc_server.rb:20
+bin/ipc_server.rb:9:in `initialize': wrong number of arguments (2 for 1) (ArgumentError)
+	from bin/ipc_server.rb:9:in `new'
+	from bin/ipc_server.rb:9:in `start'
+	from /usr/lib/ruby/gems/1.8/gems/daemon-spawn-0.4.2/lib/daemon_spawn.rb:51:in `start'
+	from /usr/lib/ruby/gems/1.8/gems/daemon-spawn-0.4.2/lib/daemon_spawn.rb:38:in `fork'
+	from /usr/lib/ruby/gems/1.8/gems/daemon-spawn-0.4.2/lib/daemon_spawn.rb:38:in `start'
+	from /usr/lib/ruby/gems/1.8/gems/daemon-spawn-0.4.2/lib/daemon_spawn.rb:181:in `start'
+	from /usr/lib/ruby/gems/1.8/gems/daemon-spawn-0.4.2/lib/daemon_spawn.rb:181:in `map'
+	from /usr/lib/ruby/gems/1.8/gems/daemon-spawn-0.4.2/lib/daemon_spawn.rb:181:in `start'
+	from /usr/lib/ruby/gems/1.8/gems/daemon-spawn-0.4.2/lib/daemon_spawn.rb:165:in `send'
+	from /usr/lib/ruby/gems/1.8/gems/daemon-spawn-0.4.2/lib/daemon_spawn.rb:165:in `spawn!'
+	from bin/ipc_server.rb:20
+"F /tmp/sss111 P 9999"
+"REcieved from IPC id1messageone"
+got IN channel data {"id"=>1, "message"=>"one"} ID:1
+"REcieved from IPC id2messagetwo"
+got IN channel data {"id"=>2, "message"=>"two"} ID:2
+"REcieved from IPC id3messagethree"
+got IN channel data {"id"=>3, "message"=>"three"} ID:3
+got responce from stub
+got responce from stub
+got responce from stub
+[server] client disconnected.
+[server] client disconnected.
+[server] client disconnected.
+[server] client disconnected.

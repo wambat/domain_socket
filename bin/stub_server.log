@@ -1,0 +1,16 @@
+STUB SEVER client connected
+"GOT id1messageone"
+"GOT id2messagetwo"
+"GOT id3messagethree"
+"Replying id1messagea one"
+"Replying id2messagea two"
+"Replying id3messagea three"
+STUB SEVER client disconnected.
+STUB SEVER client connected
+"GOT id1messageone"
+"GOT id2messagetwo"
+"GOT id3messagethree"
+"Replying id1messagea one"
+"Replying id2messagea two"
+"Replying id3messagea three"
+STUB SEVER client disconnected.
